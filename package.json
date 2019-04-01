@@ -1,5 +1,5 @@
 {
-  "name": "simple",
+  "name": "potop",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -9,15 +9,24 @@
   },
   "dependencies": {
     "core-js": "^2.6.5",
-    "vue": "^2.6.6"
+    "css-loader": "^2.1.1",
+    "stylus-loader": "^3.0.2",
+    "vue": "^2.6.6",
+    "vue-router": "^3.0.2",
+    "vuetify": "^1.5.8"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "^3.5.0",
     "@vue/cli-plugin-eslint": "^3.5.0",
     "@vue/cli-service": "^3.5.0",
     "babel-eslint": "^10.0.1",
-    "eslint": "^5.8.0",
-    "eslint-plugin-vue": "^5.0.0",
+    "eslint": "^5.16.0",
+    "eslint-config-standard": "^12.0.0",
+    "eslint-plugin-import": "^2.16.0",
+    "eslint-plugin-node": "^8.0.1",
+    "eslint-plugin-promise": "^4.0.1",
+    "eslint-plugin-standard": "^4.0.0",
+    "eslint-plugin-vue": "^5.2.2",
     "vue-template-compiler": "^2.5.21"
   },
   "eslintConfig": {
