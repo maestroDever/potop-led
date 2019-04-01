@@ -72,7 +72,7 @@
           white--text
           xs12
         >
-          &copy;2018 — <strong>Vuetify</strong>
+          &copy;{{ new Date().getFullYear() }} — <strong>POTOP</strong>
         </v-flex>
       </v-layout>
     </v-footer>
