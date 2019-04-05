@@ -1,11 +1,11 @@
 import VueRouter from 'vue-router'
 
-import Home from './components/Home'
-import AboutUs from './components/AboutUs'
-import Products from './components/Products'
-import Services from './components/Services'
-import Blog from './components/Blog'
-import ContactUs from './components/ContactUs'
+import Home from './views/Home'
+import AboutUs from './views/AboutUs'
+import Products from './views/Products'
+import Services from './views/Services'
+import Blog from './views/Blog'
+import ContactUs from './views/ContactUs'
 
 export default new VueRouter({
   routes: [
